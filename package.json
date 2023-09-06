@@ -39,7 +39,8 @@
     "tape": "^4.8.0",
     "typescript": "^2.5.2",
     "typescript-eslint-parser": "^8.0.0",
-    "walk": "^2.3.9"
+    "walk": "^2.3.9",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/mkdirp": "^0.5.1",
@@ -55,5 +56,10 @@
     "gulp-tape": "0.0.9",
     "gulp-typescript": "^3.2.2",
     "tap-colorize": "^1.2.0"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
