@@ -23,7 +23,7 @@
     "js-md5": "^0.6.1",
     "mediaserver": "0.1.0",
     "mkdirp": "^0.5.1",
-    "mysql2": "^1.4.2",
+    "mysql2": "^3.9.7",
     "node-random-name": "^1.0.1",
     "node-static": "^0.7.10",
     "pm2": "^2.4.6",
